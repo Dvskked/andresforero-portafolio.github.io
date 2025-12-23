@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Andrés Forero</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+
+  <!-- contenido -->
+  <body>
+    <div class="container">
+      <aside class="aside"> <!-- menu de navegacion -->
+        <div class="perfil">
+          <img src="assets/img/Andres Felipe Forero Sánchez.jpeg" alt="Mi foto de perfil">
+          <h2>Andrés Forero</h2>
+          <p>Desarrollador Web en formación</p>
+        </div>
+
+        <nav class="menu">
+          <a onclick="mostrar('sobremi')">
+            <i class="fa-solid fa-user"></i>
+            <span>Sobre mí</span>
+          </a>
+
+          <a onclick="mostrar('proyectos')">
+            <i class="fa-solid fa-code"></i>
+            <span>Proyectos</span>
+          </a>
+
+          <a onclick="mostrar('estudios')">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Estudios</span>
+          </a>
+
+          <a onclick="mostrar('logros')">
+            <i class="fa-solid fa-trophy"></i>
+            <span>Logros</span>
+          </a>
+
+          <a onclick="mostrar('contacto')">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contacto</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- secciones -->
+
+
+      <main class="main">
+
+          <section id="sobremi" class="seccion activa">
+              <div class="mi-informacion">
+                  <h1>Sobre mí</h1>
+                  <hr>
+                  <p>
+                      Soy aprendiz de Análisis y Desarrollo de Software en el SENA, con enfoque en
+                      desarrollo web. Me interesa crear interfaces claras, funcionales y bien estructuradas,
+                      cuidando tanto el diseño como la lógica detrás del código.
+                  </p>
+
+              </div>
+              <br><br>
+              
+              <div class="mi-tecnologia">
+                  <h2>Lenguajes</h2>
+                      <ul>
+                          <li>🐍 Python</li>
+                          <li>🦴 HTML</li>
+                          <li>🎨 CSS</li>
+                          <li>🤖 JavaScript</li>
+                          <li>🐘 PHP (Básico)</li>
+                          <li>📊 MySQL</li>
+                          <li>🐱 Git</li>
+                      </ul>
+              </div>
+              <br><br>
+          
+              <div class="mi-dato">
+                  <h2>Dato Humano</h2>
+                  <p>Me gustan los retos y las competencias técnicas, donde puedo medir mis habilidades y buscar siempre el mejor resultado.</p>
+              </div>
+          </section>
+
+
+
+          <section id="proyectos" class="seccion">
+              <h1>Proyectos</h1>
+              <hr>
+              <br><br>
+              <div class="proyectos">
+                  <div class="proyecto-uno">
+                      <h3>🌐 Sistema de Autenticación Web</h3>
+                      <p>Desarrollo de un sistema de autenticación con PHP y MySQL que permite el registro e inicio de sesión de usuarios. Se implementaron formularios, validación de datos y conexión a base de datos, enfocado en el correcto funcionamiento del backend.</p>
+                      <br>
+                      <ul>
+                          <strong>Tecnologías:</strong>
+                          <li>🐘 PHP</li>
+                          <li>📊 SQL (Php admin)</li>
+                          <li>🦴 HTML</li>
+                          <li>🎨 CSS</li>
+                      </ul>
+                      <br>
+                      <div class="imagen-proyecto-uno">
+                          <img src="assets/img/proyectophp.png" alt="imagen proyecto backend phpadmin" class="backend-php">
+                      </div>
+                      <br><br><br><br><br>
+                  </div>
+
+
+                  <div class="proyecto-dos">
+                      <h3>🤖 Proyecto de Robótica Educativa con LEGO</h3>
+                      <p>Proyecto de robótica educativa enfocado en la solución de retos técnicos mediante lógica y trabajo colaborativo por GAES (grupo autonomo de estudio sena), fortaleciendo habilidades de análisis y resolución de problemas.</p>
+                      <br>
+                      <ul>
+                          <strong>Tecnologías:</strong>
+                          <li>🧱 LEGO</li>
+                          <li>🧠 Lógica de programación</li>
+                          <li>📚 Trabajo en equipo</li>
+                      </ul>
+                      <br>
+                      <div class="imagen-proyecto-dos">
+                          <img src="assets/img/proyecto2-1.png" alt="imagen proyecto lego" class="backend-php">
+                      </div>
+                      <br><br><br><br><br>
+                  </div>
+
+
+                  <div class="proyecto-tres">
+                      <h3>💻 Participación en Competencias Técnicas Nacionales</h3>
+                      <p>Participación en exposiciones técnicas a nivel regional y nacional, incluyendo eventos en Bucaramanga y Pereira, presentando proyectos tecnológicos en equipo.</p>
+                      <br>
+                      <ul>
+                          <strong>Habilidades</strong>
+                          <li>📚 Trabajo en equipo</li>
+                          <li>📣 Comunicación</li>
+                          <li>🗂️ Organización</li>
+                      </ul>
+                      <br>
+                      <div class="imagen-proyecto-tres">
+                          <img src="" alt="imagen exposicion" class="backend-php">
+                      </div>
+                      <br><br>
+                  </div>
+              </div>        
+          </section>
+
+
+
+
+
+
+
+          <section id="estudios" class="seccion">
+          <h1>Estudios</h1>
+          <hr><br><br>
+          <div class="formacion">
+            <h2>🎓 Análisis y Desarrollo de Software</h2>
+            <h4>SENA – Servicio Nacional de Aprendizaje</h4>
+            <i>En formación</i>
+            <br><br>
+            <p>Soy aprendiz del programa <strong>Análisis y Desarrollo de Software</strong>, donde he adquirido bases sólidas en programación, desarrollo web y lógica computacional. Durante la formación he trabajado con tecnologías frontend y backend, así como en el análisis de problemas y la construcción de soluciones funcionales orientadas a proyectos reales.</p>
+            <br>
+            <ul>
+              <strong>Áreas trabajadas:</strong>
+              <li>🌐 Desarrollo web (HTML, CSS, JavaScript)</li>
+              <li>📊 Backend básico con PHP y MySQL</li>
+              <li>🧠 Lógica de programación y algoritmia</li>
+              <li>📚 Trabajo colaborativo y metodologías básicas</li>
+              <li>📄 Documentación y presentación de proyectos</li>
+            </ul>
+            <br><br><br><br><br>
+          </div>
+
+          <div class="robotica">
+            <h2>🤖 Robótica Educativa</h2>
+            <i>Proyectos académicos</i>
+            <br><br>
+            <p>Participé en proyectos de <strong>robótica educativa con LEGO</strong>, enfocados en la resolución de retos técnicos mediante lógica, creatividad y trabajo en equipo. Estas experiencias fortalecieron mis habilidades de análisis, comunicación y pensamiento estructurado.</p>
+            <br><br><br><br><br>
+          </div>
+
+          <div class="competencia">
+            <h2>🏆 Formación orientada a competencias</h2>
+            <i>WorldSkills / procesos competitivos</i>
+            <br><br>
+            <p>He hecho parte de procesos formativos enfocados en <strong>competencias técnicas</strong>, lo que me permitió desarrollar disciplina, organización, manejo del tiempo y atención al detalle. Además, participé en espacios de exposición y trabajo colaborativo a nivel <strong>regional y nacional.</strong></p>
+          </div>
+          </section>
+
+
+
+
+          <section id="logros" class="seccion">
+            <h1>Logros</h1>
+            <hr><br>
+            <div class="smartfilm">
+              <div class="titulo-smart">
+                <h2>🎬 Certificado en Medios Audiovisuales</h2>
+                <span>SMARTFILMS® – Ministerio de Comercio, Industria y Turismo (2025)</span>
+              </div>
+              <br><br>
+              <div class="contenido-smart">
+                <p>Participación y aprobación del taller de creación audiovisual, enfocado en la producción de contenidos con dispositivos móviles, narrativa audiovisual (storytelling) y estrategias de promoción turística.</p>
+                <p>Duración: <strong>4 horas</strong></p>
+                <br><br>
+              </div>
+              <div class="fortalecimientos-smart">
+                <ul>
+                <strong>Fortalecimiento:</strong>
+                <li>👀 Comunicación visual y narrativa</li>
+                <li>🧠 Presentación clara de ideas</li>
+                <li>🎭 Creatividad aplicada a proyectos</li>
+                <li>🎥 Uso del audiovisual como herramienta profesional</li>
+              </ul>
+              <br><br>
+              </div>
+              <div class="evidencia-smart">
+                <strong>Evidencia</strong>
+                <div class="imagen-evidencia">
+                  <img src="assets/img/certificado-cine.png" alt="certificado smart film" class="certificado">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="python">
+              <div class="titulo-python">
+                <h2>🐍 Certificado en Python</h2>
+                <span>SENA (2025)</span>
+              </div>
+              <br><br>
+              <div class="contenido-python">
+                <p>Certificación en fundamentos de programación con Python, aplicando lógica computacional, estructuras básicas y resolución de problemas mediante código.</p>
+                <br><br>
+              </div>
+              <div class="fortalecimientos-python">
+                <ul>
+                <strong>Fortalecimiento:</strong>
+                <li>🕵️‍♂️ Resolución de problemas</li>
+                <li>🧠 Pensamiento lógico</li>
+                <li>👩‍💻 Bases sólidas en programación</li>
+                <li>🤖 Enfoque estructurado para el desarrollo de software</li>
+              </ul>
+              <br><br>
+              </div>
+              <div class="evidencia-python">
+                <strong>Evidencia</strong>
+                <div class="imagen-evidencia">
+                  <img src="assets/img/certificado-python.png" alt="certificado curso python" class="certificado">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="worldskills">
+              <div class="titulo-ws">
+                <h2>🏆 Certificado de Participación – WorldSkills</h2>
+                <span>SENA / Proceso de Competencias Técnicas (2025)</span>
+              </div>
+              <br><br>
+              <div class="contenido-ws">
+                <p>Participación en procesos formativos y evaluativos orientados a competencias WorldSkills, bajo criterios técnicos y de calidad en desarrollo de software.</p>
+                <br><br>
+              </div>
+              <div class="fortalecimientos-ws">
+                <ul>
+                <strong>Fortalecimiento:</strong>
+                <li>🧙 Disciplina y constancia</li>
+                <li>🛡️ Trabajo bajo presión</li>
+                <li>🚫 Cumplimiento de estándares</li>
+                <li>🏆 Mentalidad competitiva y de mejora continua</li>
+              </ul>
+              <br><br>
+              </div>
+              <div class="evidencia-ws">
+                <strong>Evidencia</strong>
+                <div class="imagen-evidencia">
+                  <img src="assets/img/certificado-worldskills.png" alt="certificado smart film" class="certificado">
+                  <br>
+                  <img src="assets/img/ws.png" alt="" class="certificado">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="pereira">
+              <div class="titulo-pereira">
+                <h2>🔬 Certificado – Encuentro Zonal de Semilleros de Investigación</h2>
+                <span>SENA – Regional Risaralda (2025)</span>
+                <span>Línea TIC e Inteligencia Artificial – SENASOFT</span>
+              </div>
+              <br><br>
+              <div class="contenido-pereira">
+                <p>Participación en el Encuentro Zonal de Semilleros de Investigación SENA, realizado en Pereira, presentando la propuesta:</p>
+                <strong>“Sistema de gestión con IA para la recolección de reciclaje en el SENA CSET de Bucaramanga”</strong>
+                <br><br>
+                <p>El proyecto fue evaluado dentro de la línea de <strong>Tecnologías de la Información e Inteligencia Artificial</strong>, cumpliendo criterios de innovación, enfoque tecnológico y presentación.</p><br><br>
+              </div>
+              <div class="fortalecimientos-pereira">
+                <ul>
+                <strong>Fortalecimiento:</strong>
+                <li>🔎 Investigación aplicada en tecnología</li>
+                <li>🤖 Introducción a soluciones con <strong>Inteligencia Artificial</strong></li>
+                <li>🔑 Análisis de problemáticas reales y sostenibles</li>
+                <li>📚 Trabajo en equipo y exposición técnica</li>
+                <li>🖼️ Presentación de proyectos ante jurados</li>
+              </ul>
+              <br><br>
+              </div>
+              <div class="evidencia-pereira">
+                <strong>Evidencia</strong>
+                <div class="imagen-evidencia">
+                  <img src="assets/img/certificado-pereira.png" alt="certificado smart film" class="certificado">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+       
+          </section>
+
+
+
+          <section id="contacto" class="seccion">
+            <h1>Contacto</h1>
+            <hr>
+            <br><br>
+            <div class="contacto-andres">
+              <div class="datos-basicos">
+                <p><strong>Nombre: </strong>Andrés Felipe Forero Sanchez</p>
+                <p><strong>Perfil: </strong>Desarrollador de Software en formación</p>
+                <p><strong>Ubicación: </strong>Bucaramanga</p>
+                <br><br>
+              </div>
+              <div class="datos-contacto">
+                <strong>Correo electrónico:</strong><br>
+                <p>📧 <a href="mailto:siriusplanet76@gmail.com">siriusplanet76@gmail.com</a></p>
+                <br>
+                <strong>GitHub:</strong><br>
+                <p>🌐 <a href="https://github.com/Dvskked">https://github.com/Dvskked</a></p>
+                <br>
+                <strong>Correo electrónico:</strong><br>
+                <p>📱 +57 3153806797</p>
+              </div>
+            </div>
+          
+          </section>
+
+      </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
