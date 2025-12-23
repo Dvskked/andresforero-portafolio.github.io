@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body {
+  min-height: 100vh;
+  /* ❌ overflow: hidden;  <-- ELIMINADO */
+}
+
+/* CONTENEDOR */
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2b1055, #12002b);
+  color: white;
+}
+
+/* ASIDE */
+.aside {
+  width: 350px;
+  background: rgba(20, 10, 40, 0.75);
+  backdrop-filter: blur(12px);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* PERFIL */
+.perfil img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #9f7aea;
+}
+
+.perfil h2 {
+  font-size: 32px;
+}
+
+.perfil p {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+/* MENU */
+.menu {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  background: rgba(159, 122, 234, 0.25);
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 60px;
+  overflow-y: auto; /* 👈 scroll SOLO aquí */
+}
+
+/* SECCIONES */
+.seccion {
+  display: none;
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px 50px;
+  border-radius: 20px;
+  animation: fade 0.4s ease;
+}
+
+.seccion.activa {
+  display: block;
+}
+
+/* TEXTOS */
+.seccion h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #e9d8fd;
+}
+
+.seccion p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* SOBRE MI */
+.mi-imagen {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-andres {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid rgb(88, 0, 177);
+}
+
+/* PROYECTOS */
+
+
+.imagen-proyecto-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.backend-php {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.certificado{
+  height: 450px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
